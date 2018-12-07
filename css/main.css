@@ -1,0 +1,27 @@
+html {
+  font-family: Georgia: sans-serif;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #512200;
+}
+
+.link-card {
+  background-color: #cabdb2;
+  border-width: 3px;
+  padding: 1rem;
+  border-radius: 3px;
+  border-color: #785439;
+}
+
+dt,
+dl {
+  display: inline-block;
+  margin: 0;
+}
