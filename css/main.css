@@ -1,10 +1,18 @@
 html {
-  font-family: Georgia: sans-serif;
+  box-sizing: border-box;
+  background-color: #f0eee8;
+  margin: 0 0 1rem;
+  font-family: Georgia, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 h1 {
   font-family: "Dosis", sans-serif;
-  margin: 0;
+  color: #512200;
+  font-size: 1.5rem;
 }
 
 a {
@@ -13,15 +21,83 @@ a {
 }
 
 .link-card {
-  background-color: #cabdb2;
-  border-width: 3px;
+  background-color: #dcd4cd;
+  border-width: 3px solid;
   padding: 1rem;
-  border-radius: 3px;
+  border-radius: 6px;
   border-color: #785439;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-family: Dosis, sans-serif;
+  color: #512200;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card h1 {
+  font-family: Dosis,sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin: 0;
 }
 
 dt,
 dl {
   display: inline-block;
   margin: 0;
+}
+
+p {
+  line-height: 1.5rem;
+  padding: 0;
+  font-family: Georgia;
+}
+
+div {
+  font-family: Georgia;
+  text-align: center;
+}
+
+dl {
+  display: block;
+  text-align: left;
+  font-size: .875rem;
+  font-family: Georgia;
+}
+
+dt {
+  display: inline-block;
+  font-family: Georgia;
+  width: 45%;
+}
+
+dd {
+  font-style: italic;
+  display: inline-block;
+  font-family: Georgia;
+  width: 45%;
+  margin: 0;
+}
+
+.btn {
+  font-size: 1.125rem;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  font-family: doris, sans-serif;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  color: #f0eee8;
+}
+
+.genus-species {
+  border-top: 2px solid #9a816d;
+  padding: .4em .75em .5em;
+  border-bottom: 2px solid #9a816d;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
 }
